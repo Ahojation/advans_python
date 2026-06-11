@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}update{% endblock title %}
+{% block content %}
+<form action="" method="post">
+    <input type="text" name = "name" placeholder="enter name" value="{{ss.sname}}"><br><br>
+    <input type="text" name = "family" placeholder="enter family" value="{{ss.sfamily}}"><br><br>
+    <input type="text" name = "aage" placeholder="enter age" value="{{ss.age}}"><br><br>
+    <input type="submit" value="update">
+</form>
+{% endblock content %}
